@@ -1,1 +1,1 @@
-# jmun2018
+# Jaipuria Model UN 2018
