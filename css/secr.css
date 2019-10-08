@@ -1,0 +1,36 @@
+.navbar-fixed-top {
+  background: #000;
+}
+.core {
+	height: 80vh;
+	margin-top: -70vh;
+	padding: 1vh 10vw;
+	padding-bottom: 10vh;
+}
+.img {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/secratariat.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+@media(max-width: 768px) {
+	.core {
+		height: 70vh;
+		margin-top: -70vh;
+		padding: 0;
+	}
+	.img {
+		height: 100%;
+		width: 100%;
+		background-image: url(img/secratariat.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+.img-rounded {
+	height: 75vh;
+	padding: 5vh 12vw;
+}

@@ -1,0 +1,51 @@
+.navbar-fixed-top {
+	background: #000;
+}
+.wrapper {
+	margin-top: -70vh;
+}
+.tab-pane {
+	padding: 10px;
+}
+h4 {
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.quote{
+	font-size: 170% ;
+	font-weight: bold;
+
+}
+.quote1{
+	font-size: 120%;
+}
+p, ol li {
+	font-size: 250%;
+	font-weight:bolder;
+	word-spacing: 0.25vw;
+	margin-left: 2vw;
+}
+.img-rounded {
+	width: 50%;
+	margin-left: 25%;
+}
+@media(max-width: 768px) {
+	.img-rounded {
+		width: 90%;
+		margin-left: 5%;
+	}
+	.quote{
+		font-size: 160%;
+		font-weight: bolder;
+	}
+	.quote1{
+		font-size: 150%;
+	}
+	p, ol li {
+	font-size: 200%;
+	font-weight:bolder;
+	word-spacing: 0;
+}
+}

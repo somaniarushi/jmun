@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/flipclock.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/coming.css">
+  </head>
+  <body>
+    <div id="loader">
+         <div id="spinner"></div>
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="secr.html">Secretariat</a></li> 
+            <li><a href="comm.html">Committees</a></li>
+            <li><a href="info.html">Registration</a></li> 
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav nav-justified">
+          <li><a href="index.html"><i class="flaticon-home" aria-hidden="true"></i></a></li>
+          <li><a href="secr.html"><i class="flaticon-user" aria-hidden="true"></i></a></li> 
+          <li><a href="comm.html"><i class="flaticon-team" aria-hidden="true"></i></a></li>
+          <li><a href="info.html"><i class="flaticon-info" aria-hidden="true"></i></a></li> 
+          <li><a href="contact.html"><i class="flaticon-mail" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="wrapper">
+
+      <main class="content" style="font-weight: bold;">
+        <h1>COMING SOON!</h1>
+
+        <div class="countdown">
+          <div class="countdown__days">
+            <div class="number"></div>
+            <span class>Days</span>
+          </div>
+
+          <div class="countdown__hours">
+            <div class="number"></div>
+            <span class>Hours</span>
+          </div>
+
+          <div class="countdown__minutes">
+            <div class="number"></div>
+            <span class>Minutes</span>
+          </div>
+
+          <div class="countdown__seconds">
+            <div class="number"></div>
+            <span class>Seconds</span>
+          </div>
+        </div>
+
+        <p style="font-size: 20px;">Our website is under construction. We`ll be here soon<br />with our new awesome site. Subscribe to be notified.</p>
+
+        <form id="contactForm">
+          <input id="form-email" name="form-email" type="email" placeholder="Your email address" />
+          <input type="submit" value="Notify me" />
+        </form>
+      </main>
+
+      <footer>
+        <ul class="footer__links">
+          <li><a href="https://www.instagram.com/jaipuriamun/" target="_blank"><span class="fa fa-instagram"></span></a></li>
+          <li><a href="https://www.facebook.com/TheJMUN" target="_blank"><span class="fa fa-facebook"></span></a></li>
+          <li><a href="https://www.snapchat.com/add/jaipuriamun"><span class="fa fa-snapchat" target="_blank"></span></a></li>
+        </ul>
+      </footer>
+    </div>
+    <div id="search-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" title="Type in a name"></h4>
+          </div>
+          <div class="modal-body">
+            <ul id="myUL">
+                <li>Adele</li>
+                <li>Agnes</li>
+                <li>Billy</li>
+                <li>Bob</li>
+                <li>Calvin</li>
+                <li>Christina</li>
+                <li>Cindy</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script type="text/javascript" src="js/flipclock.js"></script>
+    <script src="js/coming.js"></script>
+  </body>
+</html>
